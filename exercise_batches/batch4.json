@@ -1,0 +1,402 @@
+[
+  {
+    "id": "68511e26fdd5ef741da93ade",
+    "title": "İNCLINE CABLE FLY"
+  },
+  {
+    "id": "68511e29fdd5ef741da93adf",
+    "title": "REVERSE CHEST STRETCH"
+  },
+  {
+    "id": "68511e48fdd5ef741da93b14",
+    "title": "SEATED CABLE CHEST PRESS"
+  },
+  {
+    "id": "68511e4cfdd5ef741da93b15",
+    "title": "SEATED CABLE CLOSE GRIP CHEST PRESS"
+  },
+  {
+    "id": "68511e57fdd5ef741da93b16",
+    "title": "FOREARM PUSH-UP"
+  },
+  {
+    "id": "68511e5bfdd5ef741da93b17",
+    "title": "BANDED SHOULDER ADDUCTION"
+  },
+  {
+    "id": "68511eb3fdd5ef741da93b43",
+    "title": "BAND ALTERNATE INCLINE CHEST PRESS"
+  },
+  {
+    "id": "68511eb8fdd5ef741da93b44",
+    "title": "INCLINE CLOSE-GRIP BENCH PRESS"
+  },
+  {
+    "id": "68511ebcfdd5ef741da93b45",
+    "title": "CLOSE GRIP BENCH PRESS"
+  },
+  {
+    "id": "68511ec0fdd5ef741da93b46",
+    "title": "DIAMOND PUSH-UP"
+  },
+  {
+    "id": "68511ec3fdd5ef741da93b47",
+    "title": "PUSH-UP"
+  },
+  {
+    "id": "68511ec7fdd5ef741da93b48",
+    "title": "HAMMER PRESS"
+  },
+  {
+    "id": "68511ecbfdd5ef741da93b49",
+    "title": "CHEST PRESS MACHINE"
+  },
+  {
+    "id": "68511ed1fdd5ef741da93b4a",
+    "title": "BARBELL FLOOR PRESS"
+  },
+  {
+    "id": "68511ed4fdd5ef741da93b4b",
+    "title": "LANDMINE FLOOR CHEST FLY"
+  },
+  {
+    "id": "68511ee0fdd5ef741da93b50",
+    "title": "DECLINE HAMMER PRESS"
+  },
+  {
+    "id": "68511ee5fdd5ef741da93b55",
+    "title": "CLOSE-GRIP REVERSE BENCH PRESS"
+  },
+  {
+    "id": "68511ee9fdd5ef741da93b56",
+    "title": "WIDE-GRIP REVERSE BENCH PRESS"
+  },
+  {
+    "id": "68511eedfdd5ef741da93b57",
+    "title": "CLOSE GRIP KNEE PUSH-UP"
+  },
+  {
+    "id": "68511ef2fdd5ef741da93b58",
+    "title": "PUSH-UP WITH ROTATION"
+  },
+  {
+    "id": "68511ef5fdd5ef741da93b59",
+    "title": "SUPINE MEDICINE BALL CHEST THROW"
+  },
+  {
+    "id": "68511ef9fdd5ef741da93b5a",
+    "title": "REVERSE DIPS"
+  },
+  {
+    "id": "68511efcfdd5ef741da93b5b",
+    "title": "TRX CHEST PRESS"
+  },
+  {
+    "id": "68511f00fdd5ef741da93b5c",
+    "title": "DUMBBELL STRAIGHT ARM PULLOVER (KNEES AT 90 DEGREES)"
+  },
+  {
+    "id": "68511f04fdd5ef741da93b5d",
+    "title": "TRX CHEST FLY"
+  },
+  {
+    "id": "68511f15fdd5ef741da93b5e",
+    "title": "KETTLEBELL RENEGADE ROW"
+  },
+  {
+    "id": "68511f1bfdd5ef741da93b62",
+    "title": "PUSH-UP TO RENEGADE ROW"
+  },
+  {
+    "id": "68511f20fdd5ef741da93b64",
+    "title": "KNUCKLE PUSH-UP"
+  },
+  {
+    "id": "68511f23fdd5ef741da93b66",
+    "title": "FULL PLANCHE PUSH-UP"
+  },
+  {
+    "id": "68511f27fdd5ef741da93b68",
+    "title": "FINGER PUSH-UP"
+  },
+  {
+    "id": "68511f2bfdd5ef741da93b69",
+    "title": "CHEST TAP PUSH-UP"
+  },
+  {
+    "id": "68511f53fdd5ef741da93b6b",
+    "title": "KETTLEBELL DEEP PUSH-UP"
+  },
+  {
+    "id": "68511f59fdd5ef741da93b78",
+    "title": "ARCHER PUSH-UP"
+  },
+  {
+    "id": "68511f7cfdd5ef741da93b79",
+    "title": "MODIFIED HINDU PUSH-UP"
+  },
+  {
+    "id": "68511fc5fdd5ef741da93b82",
+    "title": "ONE LEG PUSH-UP"
+  },
+  {
+    "id": "68511fccfdd5ef741da93b83",
+    "title": "BOSU BALL PUSH-UP"
+  },
+  {
+    "id": "68511fd2fdd5ef741da93b86",
+    "title": "RESISTANCE BAND ALTERNATING CHEST FLY"
+  },
+  {
+    "id": "68511fd7fdd5ef741da93b89",
+    "title": "DUMBBELL REVERSE GRIP 30 DEGREES INCLINE BENCH PRESS"
+  },
+  {
+    "id": "68511fdefdd5ef741da93b8c",
+    "title": "RING DIPS"
+  },
+  {
+    "id": "68511fe2fdd5ef741da93b8d",
+    "title": "COBRA PUSH-UP"
+  },
+  {
+    "id": "68511fe7fdd5ef741da93b8e",
+    "title": "SHOULDER TAP PUSH-UP"
+  },
+  {
+    "id": "68511febfdd5ef741da93b8f",
+    "title": "SINGLE ARM RAISE PUSH-UP"
+  },
+  {
+    "id": "68511feffdd5ef741da93b90",
+    "title": "SUSPENDED PUSH-UP"
+  },
+  {
+    "id": "68511ffefdd5ef741da93b91",
+    "title": "CLOSE-GRIP DUMBBELL PUSH-UP"
+  },
+  {
+    "id": "68512002fdd5ef741da93b92",
+    "title": "MEDICINE BALL PUSH-UP"
+  },
+  {
+    "id": "68512006fdd5ef741da93b93",
+    "title": "SINGLE-ARM PUSH-UP ON A MEDICINE BALL"
+  },
+  {
+    "id": "6851200bfdd5ef741da93b96",
+    "title": "WEIGHTED VEST PUSH-UP"
+  },
+  {
+    "id": "68512013fdd5ef741da93b9b",
+    "title": "STANDING MEDICINE BALL CHEST PASS"
+  },
+  {
+    "id": "6851201bfdd5ef741da93b9c",
+    "title": "STANDING INCLINE CHEST PRESS WITH RESISTANCE BAND"
+  },
+  {
+    "id": "6851201ffdd5ef741da93b9d",
+    "title": "MIDDLE CHEST FLY WITH RESISTANCE BAND"
+  },
+  {
+    "id": "68512023fdd5ef741da93b9e",
+    "title": "KNEELING INCLINE PRESS | GYMSTICK"
+  },
+  {
+    "id": "6851203afdd5ef741da93b9f",
+    "title": "LOW CHEST FLY WITH RESISTANCE BAND"
+  },
+  {
+    "id": "6851203efdd5ef741da93ba0",
+    "title": "HIGH CHEST FLY WITH RESISTANCE BAND"
+  },
+  {
+    "id": "68512042fdd5ef741da93ba1",
+    "title": "DECLINE PUSH-UP"
+  },
+  {
+    "id": "6851209efdd5ef741da93bc3",
+    "title": "ROWING MACHINE"
+  },
+  {
+    "id": "685120a1fdd5ef741da93bc4",
+    "title": "LEVER FRONT PULLDOWN"
+  },
+  {
+    "id": "685120a5fdd5ef741da93bc5",
+    "title": "PULL-UP"
+  },
+  {
+    "id": "685120a9fdd5ef741da93bc6",
+    "title": "CABLE REAR PULLDOWN"
+  },
+  {
+    "id": "685120acfdd5ef741da93bc7",
+    "title": "LAT PULLDOWN"
+  },
+  {
+    "id": "685120b0fdd5ef741da93bc8",
+    "title": "SEATED CABLE ROW"
+  },
+  {
+    "id": "685120b6fdd5ef741da93bcb",
+    "title": "BARBELL BENT OVER ROW"
+  },
+  {
+    "id": "685120b9fdd5ef741da93bcc",
+    "title": "CABLE STRAIGHT ARM PULLDOWN"
+  },
+  {
+    "id": "685120bdfdd5ef741da93bce",
+    "title": "LEGLESS ROPE CLIMB"
+  },
+  {
+    "id": "685120c1fdd5ef741da93bd2",
+    "title": "LEVER T-BAR ROW"
+  },
+  {
+    "id": "6851210afdd5ef741da93c05",
+    "title": "DUMBBELL ROW"
+  },
+  {
+    "id": "6851210dfdd5ef741da93c06",
+    "title": "BENT OVER DUMBBELL ROW"
+  },
+  {
+    "id": "68512111fdd5ef741da93c07",
+    "title": "DUMBBELL BENT OVER REVERSE GRIP ROW"
+  },
+  {
+    "id": "68512115fdd5ef741da93c08",
+    "title": "REVERSE LAT-PULLDOWN"
+  },
+  {
+    "id": "68512119fdd5ef741da93c09",
+    "title": "MUSCLE-UP"
+  },
+  {
+    "id": "6851211dfdd5ef741da93c0a",
+    "title": "SEATED ROW MACHINE"
+  },
+  {
+    "id": "68512121fdd5ef741da93c0b",
+    "title": "ONE ARM CABLE ROW"
+  },
+  {
+    "id": "68512125fdd5ef741da93c0c",
+    "title": "REVERSE GRIP BARBELL ROW"
+  },
+  {
+    "id": "68512128fdd5ef741da93c0d",
+    "title": "DEADLIFT"
+  },
+  {
+    "id": "6851212cfdd5ef741da93c0e",
+    "title": "ROMANIAN DEADLIFT"
+  },
+  {
+    "id": "68512f00fdd5ef741da93f86",
+    "title": "UPPER BACK STRETCH"
+  },
+  {
+    "id": "68512f04fdd5ef741da93f87",
+    "title": "KNEELING HIGH PULLEY ROW"
+  },
+  {
+    "id": "68512f09fdd5ef741da93f88",
+    "title": "SUMO DEADLIFT"
+  },
+  {
+    "id": "68512f0cfdd5ef741da93f8d",
+    "title": "HALF KNEELING LAT PULLDOWN"
+  },
+  {
+    "id": "68512f11fdd5ef741da93f90",
+    "title": "DUMBBELL STRAIGHT LEG DEADLIFT"
+  },
+  {
+    "id": "68512f1ffdd5ef741da93f93",
+    "title": "SMITH MACHINE BENT OVER ROW"
+  },
+  {
+    "id": "68512f24fdd5ef741da93f94",
+    "title": "INCLINE REVERSE GRIP DUMBBELL ROW"
+  },
+  {
+    "id": "68512f35fdd5ef741da93f95",
+    "title": "BARBELL PULLOVER"
+  },
+  {
+    "id": "68512f39fdd5ef741da93f96",
+    "title": "CABLE PULLOVER"
+  },
+  {
+    "id": "68512f3dfdd5ef741da93f97",
+    "title": "WEIGHTED PULL-UP"
+  },
+  {
+    "id": "68512f40fdd5ef741da93f98",
+    "title": "REVERSE GRIP PULL-UP"
+  },
+  {
+    "id": "68512f44fdd5ef741da93f99",
+    "title": "CLOSE GRIP CHIN UP"
+  },
+  {
+    "id": "68512f48fdd5ef741da93f9f",
+    "title": "ASSISTED PULL-UP"
+  },
+  {
+    "id": "68512f4bfdd5ef741da93fa1",
+    "title": "TABLE INVERTED ROW"
+  },
+  {
+    "id": "68512f4ffdd5ef741da93fa5",
+    "title": "CABLE ONE ARM LAT PULLDOWN"
+  },
+  {
+    "id": "68512f52fdd5ef741da93fa6",
+    "title": "REVERSE GRIP MACHINE ROW"
+  },
+  {
+    "id": "68512f56fdd5ef741da93fa7",
+    "title": "CLOSE GRIP CABLE ROW"
+  },
+  {
+    "id": "68512f6cfdd5ef741da93fa8",
+    "title": "ROPE STRAIGHT ARM PULLDOWN"
+  },
+  {
+    "id": "68512f70fdd5ef741da93fa9",
+    "title": "V-BAR LAT PULLDOWN"
+  },
+  {
+    "id": "68512f74fdd5ef741da93faa",
+    "title": "ONE-ARM BARBELL ROW"
+  },
+  {
+    "id": "68512f78fdd5ef741da93fab",
+    "title": "T-BAR ROW"
+  },
+  {
+    "id": "68512f7cfdd5ef741da93fad",
+    "title": "INCLINE CABLE ROW"
+  },
+  {
+    "id": "68512f80fdd5ef741da93fae",
+    "title": "CABLE BENT OVER ROW"
+  },
+  {
+    "id": "68512f84fdd5ef741da93fb4",
+    "title": "STANDING SIDE BEND STRETCH"
+  },
+  {
+    "id": "68512f8bfdd5ef741da93fb7",
+    "title": "DOUBLE CABLE NEUTRAL GRIP LAT PULLDOWN ON FLOOR"
+  },
+  {
+    "id": "68512f8ffdd5ef741da93fb8",
+    "title": "INCLINE BARBELL ROW"
+  }
+]

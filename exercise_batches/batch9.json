@@ -1,0 +1,402 @@
+[
+  {
+    "id": "68515b11fdd5ef741da95000",
+    "title": "SPLIT JUMP SQUAT"
+  },
+  {
+    "id": "68515b15fdd5ef741da95001",
+    "title": "COSSACK SQUAT"
+  },
+  {
+    "id": "68515b1efdd5ef741da95006",
+    "title": "STANDING CROSS LEG HAMSTRING STRETCH"
+  },
+  {
+    "id": "68515b22fdd5ef741da9500d",
+    "title": "BACKWARD JUMP"
+  },
+  {
+    "id": "68515b27fdd5ef741da9500e",
+    "title": "JUMPING JACK"
+  },
+  {
+    "id": "68515b2cfdd5ef741da9500f",
+    "title": "SINGLE LEG BROAD JUMP"
+  },
+  {
+    "id": "68515b36fdd5ef741da95010",
+    "title": "JUMP SQUATS"
+  },
+  {
+    "id": "68515b65fdd5ef741da9501d",
+    "title": "DUMBBELL LATERAL STEP UP"
+  },
+  {
+    "id": "68515b69fdd5ef741da9510b",
+    "title": "LATERAL STEP-UP"
+  },
+  {
+    "id": "68515b6dfdd5ef741da95136",
+    "title": "STEP UP + OPPOSITE ELBOW TO KNEE TWIST"
+  },
+  {
+    "id": "68515b72fdd5ef741da95176",
+    "title": "BARBELL STEP-UP"
+  },
+  {
+    "id": "68515b76fdd5ef741da951ac",
+    "title": "LYING GLUTE STRETCH"
+  },
+  {
+    "id": "68515b7afdd5ef741da951e0",
+    "title": "LYING DUMBBELL LEG CURL"
+  },
+  {
+    "id": "68515cc6fdd5ef741da952fa",
+    "title": "BODYWEIGHT WALKING LUNGE"
+  },
+  {
+    "id": "68515cc9fdd5ef741da952fb",
+    "title": "WALL SIT"
+  },
+  {
+    "id": "68515cd1fdd5ef741da952fc",
+    "title": "KETTLEBELL PISTOL SQUATS"
+  },
+  {
+    "id": "68515cdefdd5ef741da952fd",
+    "title": "BODYWEIGHT BOX SQUAT"
+  },
+  {
+    "id": "68515ce2fdd5ef741da952fe",
+    "title": "STEP UP SINGLE LEG BALANCE WITH BICEP CURL"
+  },
+  {
+    "id": "68515ce5fdd5ef741da952ff",
+    "title": "DUMBBELL STEP-UP"
+  },
+  {
+    "id": "68515ce9fdd5ef741da95300",
+    "title": "BELT SQUAT"
+  },
+  {
+    "id": "68515d43fdd5ef741da9530e",
+    "title": "LEVER SINGLE LEG CURL"
+  },
+  {
+    "id": "68515d47fdd5ef741da9530f",
+    "title": "REVERSE LUNGE"
+  },
+  {
+    "id": "68515d4bfdd5ef741da95310",
+    "title": "SINGLE LEG STEP DOWN"
+  },
+  {
+    "id": "68515d54fdd5ef741da95311",
+    "title": "LONG JUMP"
+  },
+  {
+    "id": "68515d72fdd5ef741da95319",
+    "title": "LEVER ASSISTED SINGLE LEG PRESS"
+  },
+  {
+    "id": "68515d77fdd5ef741da9531f",
+    "title": "NORDIC HAMSTRING CURL"
+  },
+  {
+    "id": "68515d83fdd5ef741da95322",
+    "title": "HORIZONTAL LEG PRESS"
+  },
+  {
+    "id": "68515d8ffdd5ef741da95323",
+    "title": "RESISTANCE BAND TOE TOUCH"
+  },
+  {
+    "id": "68515d93fdd5ef741da95324",
+    "title": "KNEELING HIP FLEXOR STRETCH"
+  },
+  {
+    "id": "68515d97fdd5ef741da95325",
+    "title": "STANDING QUADRICEPS STRETCH"
+  },
+  {
+    "id": "68515d9bfdd5ef741da95326",
+    "title": "EXERCISE BALL WALL SQUAT"
+  },
+  {
+    "id": "68515d9ffdd5ef741da95327",
+    "title": "LEG CURL ON STABILITY BALL"
+  },
+  {
+    "id": "68515da8fdd5ef741da95328",
+    "title": "KETTLEBELL GOBLET SQUAT"
+  },
+  {
+    "id": "68515db0fdd5ef741da95354",
+    "title": "BARBELL BENCH FRONT SQUAT"
+  },
+  {
+    "id": "68515dc0fdd5ef741da95358",
+    "title": "STANDING SIDE TOE TOUCHING"
+  },
+  {
+    "id": "68515dc5fdd5ef741da9535b",
+    "title": "DUMBBELL SPLIT JUMP"
+  },
+  {
+    "id": "68515dc9fdd5ef741da9535c",
+    "title": "BANDED STEP-UP"
+  },
+  {
+    "id": "68515dcefdd5ef741da9535d",
+    "title": "BARBELL CURTSEY LUNGE"
+  },
+  {
+    "id": "68515dd3fdd5ef741da9535e",
+    "title": "DUMBBELL JUMP SQUAT"
+  },
+  {
+    "id": "68515dd7fdd5ef741da9535f",
+    "title": "BARBELL SPLIT SQUAT"
+  },
+  {
+    "id": "68515ddafdd5ef741da95360",
+    "title": "ALL FOURS SQUAD STRETCH"
+  },
+  {
+    "id": "68515ddffdd5ef741da95361",
+    "title": "BURPEES"
+  },
+  {
+    "id": "68515de3fdd5ef741da95362",
+    "title": "LEVER KNEELING LEG CURL"
+  },
+  {
+    "id": "68515deefdd5ef741da9536c",
+    "title": "REVERSE HACK SQUAT"
+  },
+  {
+    "id": "68515df2fdd5ef741da95370",
+    "title": "DUCK WALK"
+  },
+  {
+    "id": "68515df6fdd5ef741da95371",
+    "title": "TRAP BAR DEADLIFT"
+  },
+  {
+    "id": "68515dfafdd5ef741da95372",
+    "title": "ZERCHER SQUAT"
+  },
+  {
+    "id": "68515dfefdd5ef741da95373",
+    "title": "BARBELL FRONT SQUAT"
+  },
+  {
+    "id": "68515e0cfdd5ef741da95374",
+    "title": "SINGLE LEG EXTENSION"
+  },
+  {
+    "id": "68515e10fdd5ef741da95375",
+    "title": "SMITH MACHINE LEG PRESS"
+  },
+  {
+    "id": "68515e14fdd5ef741da95376",
+    "title": "SMITH MACHINE LUNGE"
+  },
+  {
+    "id": "68515e1afdd5ef741da95377",
+    "title": "SHRIMP SQUAT"
+  },
+  {
+    "id": "68515e1efdd5ef741da95378",
+    "title": "TOWEL LEG CURL"
+  },
+  {
+    "id": "68515e22fdd5ef741da95379",
+    "title": "FOAM ROLLER IT (ILIOTIBIAL BAND) STRETCH"
+  },
+  {
+    "id": "68515e26fdd5ef741da9537b",
+    "title": "FOAM ROLLER QUADS"
+  },
+  {
+    "id": "68515e2afdd5ef741da95380",
+    "title": "FOAM ROLLER INNER THIGH ADDUCTOR STRETCH"
+  },
+  {
+    "id": "68515e2efdd5ef741da95382",
+    "title": "FOAM ROLLER HAMSTRINGS"
+  },
+  {
+    "id": "68515e64fdd5ef741da9538b",
+    "title": "FOAM ROLLER PLANTAR FASCIITIS"
+  },
+  {
+    "id": "68515e6bfdd5ef741da9538e",
+    "title": "90/90 HIP STRETCH"
+  },
+  {
+    "id": "68515e6ffdd5ef741da9538f",
+    "title": "STIFF LEG DEADLIFT"
+  },
+  {
+    "id": "68515e74fdd5ef741da95391",
+    "title": "DUMBBELL GOBLET CURTSEY LUNGE"
+  },
+  {
+    "id": "68515e78fdd5ef741da95392",
+    "title": "CABLE FORWARD LUNGE"
+  },
+  {
+    "id": "68515e7cfdd5ef741da95393",
+    "title": "CABLE LUNGE"
+  },
+  {
+    "id": "68515e80fdd5ef741da95394",
+    "title": "CABLE FRONT SQUAT"
+  },
+  {
+    "id": "68515e88fdd5ef741da95395",
+    "title": "TRAP BAR JUMP SQUAT"
+  },
+  {
+    "id": "68515e8dfdd5ef741da95396",
+    "title": "BOX JUMP TO PISTOL SQUAT"
+  },
+  {
+    "id": "68515ea3fdd5ef741da9539e",
+    "title": "BOX JUMP 2 TO 1"
+  },
+  {
+    "id": "68515ea8fdd5ef741da953a3",
+    "title": "BOX JUMP 1 TO 2"
+  },
+  {
+    "id": "68515eadfdd5ef741da953a5",
+    "title": "SINGLE LEG BOX JUMP"
+  },
+  {
+    "id": "68515eb5fdd5ef741da953a6",
+    "title": "SEATED STRAIGHT LEG CALF STRETCH"
+  },
+  {
+    "id": "68515eb8fdd5ef741da953a7",
+    "title": "CROUCHING HEEL BACK CALF STRETCH"
+  },
+  {
+    "id": "68515ebdfdd5ef741da953a8",
+    "title": "BARBELL JUMP SQUAT"
+  },
+  {
+    "id": "68515ec1fdd5ef741da953a9",
+    "title": "FROG POSE"
+  },
+  {
+    "id": "68515ec6fdd5ef741da953aa",
+    "title": "ATG SPLIT SQUAT"
+  },
+  {
+    "id": "68515ed9fdd5ef741da953ad",
+    "title": "SEATED PIRIFORMIS STRETCH"
+  },
+  {
+    "id": "68515edffdd5ef741da953b9",
+    "title": "BARBELL PIN FRONT SQUAT"
+  },
+  {
+    "id": "68515ee4fdd5ef741da953ba",
+    "title": "HEEL TOUCH SIDE KICK SQUAT"
+  },
+  {
+    "id": "68515ee8fdd5ef741da953bb",
+    "title": "DECLINE BENCH DUMBBELL LUNGE"
+  },
+  {
+    "id": "68515eecfdd5ef741da953bc",
+    "title": "LATERAL LEG SWINGS"
+  },
+  {
+    "id": "68515ef1fdd5ef741da953bd",
+    "title": "BANDED WALK"
+  },
+  {
+    "id": "68515ef6fdd5ef741da953be",
+    "title": "RESISTANCE BAND LATERAL WALK"
+  },
+  {
+    "id": "68515efafdd5ef741da953bf",
+    "title": "KNEELING JUMP SQUAT"
+  },
+  {
+    "id": "68515efefdd5ef741da953c0",
+    "title": "BANDED SPLIT SQUAT"
+  },
+  {
+    "id": "68515f02fdd5ef741da953c1",
+    "title": "BANDED KETTLEBELL GOBLET SQUAT"
+  },
+  {
+    "id": "68515f0dfdd5ef741da953c2",
+    "title": "BANDED LUNGE"
+  },
+  {
+    "id": "68515f12fdd5ef741da953c3",
+    "title": "STANDING SINGLE LEG CURL MACHINE"
+  },
+  {
+    "id": "68515f17fdd5ef741da953c4",
+    "title": "DECLINE DUMBBELL LEG CURL"
+  },
+  {
+    "id": "68515f1bfdd5ef741da953db",
+    "title": "KETTLEBELL FRONT SQUAT"
+  },
+  {
+    "id": "68515f1ffdd5ef741da953dd",
+    "title": "SINGLE KNEE TO CHEST"
+  },
+  {
+    "id": "68515f23fdd5ef741da953de",
+    "title": "PISTOL SQUAT TO BOX"
+  },
+  {
+    "id": "68515f27fdd5ef741da953df",
+    "title": "LANDMINE DEADLIFT"
+  },
+  {
+    "id": "68515f2afdd5ef741da953ed",
+    "title": "LANDMINE SQUAT"
+  },
+  {
+    "id": "68515f2efdd5ef741da953ee",
+    "title": "SISSY SQUAT"
+  },
+  {
+    "id": "68515f3dfdd5ef741da953ef",
+    "title": "RACK PULL"
+  },
+  {
+    "id": "68515f43fdd5ef741da953f0",
+    "title": "STANDING KNEE HUGS"
+  },
+  {
+    "id": "68515f47fdd5ef741da953f1",
+    "title": "STEP UP WITH KNEE RAISES"
+  },
+  {
+    "id": "68515f4ffdd5ef741da953f2",
+    "title": "PIRIFORMIS STRETCH"
+  },
+  {
+    "id": "68515f52fdd5ef741da953f5",
+    "title": "HALF KNEELING HIP FLEXOR STRETCH"
+  },
+  {
+    "id": "68515f56fdd5ef741da953f8",
+    "title": "HIGH KNEE RUN"
+  },
+  {
+    "id": "68515f5dfdd5ef741da953fc",
+    "title": "INNER THIGH SIDE STRETCH"
+  }
+]

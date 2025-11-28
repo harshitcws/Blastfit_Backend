@@ -1,0 +1,402 @@
+[
+  {
+    "id": "6851171ffdd5ef741da93785",
+    "title": "HANDSTAND PUSH-UP"
+  },
+  {
+    "id": "68511722fdd5ef741da93788",
+    "title": "EZ BAR UNDERHAND PRESS"
+  },
+  {
+    "id": "68511726fdd5ef741da9378d",
+    "title": "DUMBBELL LYING EXTERNAL SHOULDER ROTATION"
+  },
+  {
+    "id": "6851172afdd5ef741da93797",
+    "title": "INCLINE DUMBBELL REVERSE FLY"
+  },
+  {
+    "id": "6851172efdd5ef741da93798",
+    "title": "INCLINE DUMBBELL Y-RAISE"
+  },
+  {
+    "id": "68511732fdd5ef741da93799",
+    "title": "DUMBBELL INCLINE T-RAISE"
+  },
+  {
+    "id": "6851176bfdd5ef741da937ac",
+    "title": "BENCH SUPPORTED DUMBBELL EXTERNAL ROTATION"
+  },
+  {
+    "id": "6851176ffdd5ef741da937ad",
+    "title": "DUMBBELL SEATED BENT OVER REAR DELT ROW"
+  },
+  {
+    "id": "68511773fdd5ef741da937ae",
+    "title": "DUMBBELL STANDING PALMS IN PRESS"
+  },
+  {
+    "id": "68511777fdd5ef741da937af",
+    "title": "LYING SHOULDER PRESS"
+  },
+  {
+    "id": "6851177bfdd5ef741da937b0",
+    "title": "DUMBBELL REAR DELT ROW"
+  },
+  {
+    "id": "6851177ffdd5ef741da937b1",
+    "title": "LEVER LATERAL RAISE"
+  },
+  {
+    "id": "68511783fdd5ef741da937b2",
+    "title": "KETTLEBELL ONE-ARM MILITARY PRESS"
+  },
+  {
+    "id": "68511788fdd5ef741da937b3",
+    "title": "KETTLEBELL SPLIT SNATCH"
+  },
+  {
+    "id": "6851178cfdd5ef741da937b4",
+    "title": "KETTLEBELL WINDMILL"
+  },
+  {
+    "id": "68511790fdd5ef741da937b5",
+    "title": "KETTLEBELL SWINGS"
+  },
+  {
+    "id": "685117ccfdd5ef741da937c0",
+    "title": "KETTLEBELL ARNOLD PRESS"
+  },
+  {
+    "id": "685117d0fdd5ef741da937c1",
+    "title": "BENT OVER REAR DELT FLY | GYMSTICK"
+  },
+  {
+    "id": "685117d4fdd5ef741da937c2",
+    "title": "CABLE SEATED SHOULDER INTERNAL ROTATION"
+  },
+  {
+    "id": "685117d8fdd5ef741da937c6",
+    "title": "HALF KNEELING CABLE EXTERNAL ROTATION"
+  },
+  {
+    "id": "685117dcfdd5ef741da937d3",
+    "title": "LANDMINE LATERAL RAISE"
+  },
+  {
+    "id": "685117e0fdd5ef741da937d4",
+    "title": "SEATED DUMBBELL FRONT RAISE"
+  },
+  {
+    "id": "685117e4fdd5ef741da937d5",
+    "title": "SCAPULAR PROTRACTION AND RETRACTION"
+  },
+  {
+    "id": "685117e9fdd5ef741da937d6",
+    "title": "ONE ARM KETTLEBELL SNATCH"
+  },
+  {
+    "id": "685117edfdd5ef741da937d7",
+    "title": "CROSS CABLE FACE PULL"
+  },
+  {
+    "id": "685117f1fdd5ef741da937d8",
+    "title": "ONE ARM LANDMINE ROW"
+  },
+  {
+    "id": "6851181cfdd5ef741da937e9",
+    "title": "RESISTANCE BAND SEATED SHOULDER PRESS"
+  },
+  {
+    "id": "68511820fdd5ef741da937ea",
+    "title": "BENCH PIKE PUSH-UP"
+  },
+  {
+    "id": "68511824fdd5ef741da937eb",
+    "title": "PIKE PUSH-UP"
+  },
+  {
+    "id": "68511828fdd5ef741da937ec",
+    "title": "TALL KNEELING ONE ARM KETTLEBELL PRESS"
+  },
+  {
+    "id": "6851182efdd5ef741da937ed",
+    "title": "KETTLEBELL CLEAN AND JERK"
+  },
+  {
+    "id": "68511833fdd5ef741da937ee",
+    "title": "LEVER SHOULDER PRESS (HAMMER GRIP)"
+  },
+  {
+    "id": "68511837fdd5ef741da937ef",
+    "title": "DUMBBELL LYING REAR LATERAL RAISE"
+  },
+  {
+    "id": "6851183cfdd5ef741da937f1",
+    "title": "LEVER REVERSE SHOULDER PRESS"
+  },
+  {
+    "id": "68511840fdd5ef741da937f2",
+    "title": "SIDE LYING REAR DELT DUMBBELL RAISE"
+  },
+  {
+    "id": "68511864fdd5ef741da93807",
+    "title": "FULL RANGE OF MOTION LAT PULLDOWN"
+  },
+  {
+    "id": "685118d5fdd5ef741da93844",
+    "title": "SCAPULA DIPS"
+  },
+  {
+    "id": "685118dafdd5ef741da93845",
+    "title": "EZ-BAR INCLINE FRONT RAISE"
+  },
+  {
+    "id": "685118defdd5ef741da93846",
+    "title": "BACK LEVER"
+  },
+  {
+    "id": "685118e3fdd5ef741da93847",
+    "title": "BARBELL FRONT RAISE TWIST"
+  },
+  {
+    "id": "685118e7fdd5ef741da93848",
+    "title": "KETTLEBELL SHOULDER PRESS"
+  },
+  {
+    "id": "685118ebfdd5ef741da93849",
+    "title": "WALL-SUPPORTED HANDSTAND PUSH-UPS"
+  },
+  {
+    "id": "685118effdd5ef741da9384a",
+    "title": "TOWEL SHOULDER STRETCH"
+  },
+  {
+    "id": "685118f3fdd5ef741da9384b",
+    "title": "KETTLEBELL THRUSTER"
+  },
+  {
+    "id": "685118f8fdd5ef741da9384c",
+    "title": "ONE ARM DUMBBELL SNATCH"
+  },
+  {
+    "id": "685118fdfdd5ef741da9384d",
+    "title": "BAND FRONT LATERAL RAISE"
+  },
+  {
+    "id": "6851190bfdd5ef741da9385c",
+    "title": "SHOULDER PENDULUM"
+  },
+  {
+    "id": "6851190ffdd5ef741da9385d",
+    "title": "90-DEGREE CABLE EXTERNAL ROTATION"
+  },
+  {
+    "id": "68511914fdd5ef741da9385e",
+    "title": "90-DEGREE CABLE INTERNAL ROTATION"
+  },
+  {
+    "id": "68511918fdd5ef741da9385f",
+    "title": "SEATED BALLERINA EXERCISE"
+  },
+  {
+    "id": "6851191cfdd5ef741da93860",
+    "title": "SEATED SCAPULAR RETRACTION EXERCISE"
+  },
+  {
+    "id": "68511920fdd5ef741da93861",
+    "title": "FOAM ROLLER POSTERIOR SHOULDER"
+  },
+  {
+    "id": "68511924fdd5ef741da93862",
+    "title": "FOAM ROLLER FRONT SHOULDER AND CHEST"
+  },
+  {
+    "id": "68511927fdd5ef741da93863",
+    "title": "ROTATOR CUFF STRETCH"
+  },
+  {
+    "id": "6851192bfdd5ef741da93864",
+    "title": "ASSISTED REVERSE STRETCH (CHEST AND SHOULDER)"
+  },
+  {
+    "id": "6851192ffdd5ef741da93865",
+    "title": "LYING UPPER BODY ROTATION"
+  },
+  {
+    "id": "6851193efdd5ef741da93868",
+    "title": "KNEELING BACK ROTATION"
+  },
+  {
+    "id": "68511942fdd5ef741da9386d",
+    "title": "SERRATUS WALL SLIDE WITH FOAM ROLLER"
+  },
+  {
+    "id": "68511948fdd5ef741da9387a",
+    "title": "WALL SUPPORTED ARM RAISES"
+  },
+  {
+    "id": "6851194cfdd5ef741da9387b",
+    "title": "BACKHAND RAISE"
+  },
+  {
+    "id": "68511951fdd5ef741da9387c",
+    "title": "DUMBBELL SEATED CUBAN PRESS"
+  },
+  {
+    "id": "68511955fdd5ef741da9387d",
+    "title": "KNEELING CABLE SHOULDER PRESS"
+  },
+  {
+    "id": "6851195afdd5ef741da9387e",
+    "title": "WALL SLIDES"
+  },
+  {
+    "id": "68511960fdd5ef741da9387f",
+    "title": "KNEELING T-SPINE ROTATION"
+  },
+  {
+    "id": "68511964fdd5ef741da93880",
+    "title": "PLATE LOADED SHOULDER PRESS"
+  },
+  {
+    "id": "68511968fdd5ef741da93881",
+    "title": "CHEST SUPPORTED DUMBBELL FRONT RAISES"
+  },
+  {
+    "id": "6851197cfdd5ef741da93889",
+    "title": "ONE-ARM DUMBBELL UPRIGHT ROW"
+  },
+  {
+    "id": "68511980fdd5ef741da93892",
+    "title": "SINGLE ARM ARNOLD PRESS"
+  },
+  {
+    "id": "68511984fdd5ef741da938a3",
+    "title": "KNEELING LANDMINE PRESS"
+  },
+  {
+    "id": "68511989fdd5ef741da938a8",
+    "title": "PIKE PUSH-UP BETWEEN CHAIRS"
+  },
+  {
+    "id": "6851198efdd5ef741da938a9",
+    "title": "KETTLEBELL CLEAN AND PRESS"
+  },
+  {
+    "id": "68511994fdd5ef741da938aa",
+    "title": "CABLE Y RAISE"
+  },
+  {
+    "id": "68511999fdd5ef741da938ab",
+    "title": "ALTERNATE DUMBBELL LATERAL RAISE"
+  },
+  {
+    "id": "6851199cfdd5ef741da938ac",
+    "title": "BACK SLAPS WRAP AROUND STRETCH"
+  },
+  {
+    "id": "685119a0fdd5ef741da938ad",
+    "title": "REACTION BALL THROW"
+  },
+  {
+    "id": "685119e4fdd5ef741da938bc",
+    "title": "DUMBBELL Z PRESS"
+  },
+  {
+    "id": "68511a1cfdd5ef741da938ed",
+    "title": "FRONT RACK PVC STRETCH"
+  },
+  {
+    "id": "68511a20fdd5ef741da938ee",
+    "title": "LEVER HIGH ROW"
+  },
+  {
+    "id": "68511a24fdd5ef741da938ef",
+    "title": "CABLE HALF KNEELING PALLOF PRESS"
+  },
+  {
+    "id": "68511a28fdd5ef741da938f0",
+    "title": "CHEST AND FRONT OF SHOULDER STRETCH"
+  },
+  {
+    "id": "68511a2dfdd5ef741da938f1",
+    "title": "SHOULDER EXTERNAL ROTATION"
+  },
+  {
+    "id": "68511a31fdd5ef741da93928",
+    "title": "SHOULDER INTERNAL ROTATION"
+  },
+  {
+    "id": "68511a35fdd5ef741da9392b",
+    "title": "LATERAL RAISE WITH TOWEL ON WALL"
+  },
+  {
+    "id": "68511a3afdd5ef741da93932",
+    "title": "ALTERNATING SHOULDER FLEXION"
+  },
+  {
+    "id": "68511a3ffdd5ef741da93933",
+    "title": "BANDED SHOULDER FLEXION"
+  },
+  {
+    "id": "68511a75fdd5ef741da93949",
+    "title": "BANDED SHOULDER EXTERNAL ROTATION"
+  },
+  {
+    "id": "68511a8dfdd5ef741da9394a",
+    "title": "BANDED SHOULDER EXTENSION"
+  },
+  {
+    "id": "68511a91fdd5ef741da9394b",
+    "title": "BAND SINGLE ARM SHOULDER PRESS"
+  },
+  {
+    "id": "68511a95fdd5ef741da9394c",
+    "title": "HANDSTAND PUSH-UPS BETWEEN BENCHES"
+  },
+  {
+    "id": "68511a99fdd5ef741da9394d",
+    "title": "KIPPING HANDSTAND PUSH-UP"
+  },
+  {
+    "id": "68511a9dfdd5ef741da9394e",
+    "title": "BENT-OVER DUMBBELL REAR DELT RAISE WITH HEAD ON BENCH"
+  },
+  {
+    "id": "68511aa2fdd5ef741da93951",
+    "title": "HINDU PUSH-UPS"
+  },
+  {
+    "id": "68511aa6fdd5ef741da93954",
+    "title": "BARBELL UPRIGHT ROW"
+  },
+  {
+    "id": "68511aaafdd5ef741da9395b",
+    "title": "BARBELL FRONT RAISE"
+  },
+  {
+    "id": "68511aadfdd5ef741da9395c",
+    "title": "CORNER WALL STRETCH"
+  },
+  {
+    "id": "68511ab1fdd5ef741da93966",
+    "title": "BARBELL THRUSTER"
+  },
+  {
+    "id": "68511ac9fdd5ef741da93968",
+    "title": "ONE ARM KETTLEBELL SWING"
+  },
+  {
+    "id": "68511acdfdd5ef741da93969",
+    "title": "STANDING REVERSE SHOULDER STRETCH"
+  },
+  {
+    "id": "68511ad1fdd5ef741da9396a",
+    "title": "RESISTANCE BAND BENT OVER REAR DELT FLY"
+  },
+  {
+    "id": "68511ad4fdd5ef741da9396b",
+    "title": "MEDICINE BALL OVERHEAD SLAM"
+  }
+]

@@ -1,0 +1,1906 @@
+[
+  {
+    "id": "684bd5ceb6022fe81a37714d",
+    "title": "WEIGHTED LATERAL NECK FLEXION",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Neck"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "684bd5cfb6022fe81a37714f",
+    "title": "WEIGHTED LYING NECK EXTENSION (NECK HARNESS)",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "684bd5d0b6022fe81a377151",
+    "title": "WEIGHTED LYING NECK FLEXION (NECK HARNESS)",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "684bd5d1b6022fe81a377153",
+    "title": "GITTLESON SHRUG",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "684bd5d2b6022fe81a377155",
+    "title": "DIAGONAL NECK STRETCH",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "684bd5d4b6022fe81a377157",
+    "title": "NECK ROTATION STRETCH",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "684bd5d5b6022fe81a377159",
+    "title": "NECK FLEXION STRETCH",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "684bd5d6b6022fe81a37715b",
+    "title": "NECK EXTENSION STRETCH",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "684bd5d7b6022fe81a37715d",
+    "title": "SIDE NECK STRETCH",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "684bd5d8b6022fe81a37715f",
+    "title": "SIDE PUSH NECK STRETCH",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "684bd5d9b6022fe81a377161",
+    "title": "FRONT AND BACK NECK STRETCH",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Neck"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility",
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "684bd5dab6022fe81a377163",
+    "title": "CHIN TUCK",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "684bd5dcb6022fe81a377166",
+    "title": "KNEELING NECK STRETCH",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "684bd5e3b6022fe81a37716f",
+    "title": "SPHINX STRETCH",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "684bd5e4b6022fe81a377171",
+    "title": "FLOOR HYPEREXTENSION",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "684bd5e6b6022fe81a377174",
+    "title": "FISH POSE",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "684bd5e7b6022fe81a377176",
+    "title": "SUPERMAN",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "684bec54ce941c2c71bf022a",
+    "title": "PRONE CERVICAL EXTENSION",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "684bec56ce941c2c71bf022d",
+    "title": "WEIGHTED NECK HARNESS EXTENSION",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "684bec58ce941c2c71bf022e",
+    "title": "LYING WEIGHTED NECK FLEXION",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "684bec59ce941c2c71bf0231",
+    "title": "LYING WEIGHTED NECK EXTENSION",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "684bec5ace941c2c71bf0232",
+    "title": "LEVER NECK RIGHT SIDE FLEXION (PLATE LOADED)",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Neck"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "684bec5cce941c2c71bf0233",
+    "title": "LEVER NECK EXTENSION (PLATE LOADED)",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Neck"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "684bec5dce941c2c71bf0234",
+    "title": "CABLE SEATED NECK FLEXION WITH HEAD HARNESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Core",
+        "Neck"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength"
+      ]
+    }
+  },
+  {
+    "id": "684bec5ece941c2c71bf0235",
+    "title": "CABLE SEATED NECK EXTENSION WITH HEAD HARNESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Core",
+        "Neck"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength"
+      ]
+    }
+  },
+  {
+    "id": "684bec63ce941c2c71bf0236",
+    "title": "BHUJANGASANA | COBRA ABDOMINAL STRETCH",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Core"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility",
+        "Core"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility",
+        "Core Strength"
+      ]
+    }
+  },
+  {
+    "id": "68510c45fdd5ef741da93292",
+    "title": "SEATED BARBELL SHOULDER PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Shoulders"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Barbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68510c49fdd5ef741da93293",
+    "title": "DUMBBELL PUSH PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Dumbbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "68510c4dfdd5ef741da93294",
+    "title": "STANDING DUMBBELL SHOULDER PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Shoulders"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68510c52fdd5ef741da93295",
+    "title": "ARM SCISSORS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Arms"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68510c55fdd5ef741da93296",
+    "title": "SIDE ARM RAISES",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Arms"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68510c5afdd5ef741da932a6",
+    "title": "ARM CIRCLES",
+    "type": "warmup",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Arms"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Warm-up",
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Preparation",
+        "Injury Prevention"
+      ]
+    }
+  },
+  {
+    "id": "68510c60fdd5ef741da932ad",
+    "title": "DUMBBELL SHOULDER PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Shoulders"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68510c64fdd5ef741da932ae",
+    "title": "SMITH MACHINE BEHIND NECK PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Machine",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "68510e8dfdd5ef741da93378",
+    "title": "DUMBBELL LATERAL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68510e98fdd5ef741da93379",
+    "title": "SMITH MACHINE SHOULDER PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Shoulders"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Machine",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685114a1fdd5ef741da93618",
+    "title": "CABLE LATERAL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core",
+        "Upper Body"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength",
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685114a6fdd5ef741da93619",
+    "title": "45 DEGREE INCLINE ROW",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685114a9fdd5ef741da9361a",
+    "title": "LEVER SHOULDER PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Shoulders"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685114aefdd5ef741da9361b",
+    "title": "STANDING CLOSE GRIP MILITARY PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685114b2fdd5ef741da9361d",
+    "title": "BARBELL MILITARY PRESS (OVERHEAD PRESS)",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Barbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685114b6fdd5ef741da9361e",
+    "title": "DUMBBELL CHEST SUPPORTED LATERAL RAISES",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Chest",
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685114c5fdd5ef741da9361f",
+    "title": "ALTERNATING DUMBBELL FRONT RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Dumbbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685114c9fdd5ef741da93624",
+    "title": "TWO ARM CABLE FRONT RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Arms",
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core",
+        "Upper Body"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength",
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68511544fdd5ef741da93670",
+    "title": "DUMBBELL 6 WAY RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Dumbbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "6851154afdd5ef741da93682",
+    "title": "DUMBBELL 4 WAY LATERAL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68511581fdd5ef741da9369a",
+    "title": "TWO ARM DUMBBELL FRONT RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Arms"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68511585fdd5ef741da936a8",
+    "title": "DUMBBELL FRONT RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Dumbbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "68511589fdd5ef741da936aa",
+    "title": "CABLE FRONT RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength"
+      ]
+    }
+  },
+  {
+    "id": "6851158dfdd5ef741da936ab",
+    "title": "LEANING SINGLE ARM DUMBBELL LATERAL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Arms"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68511590fdd5ef741da936ac",
+    "title": "SEATED BEHIND NECK PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Neck"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "68511594fdd5ef741da936ad",
+    "title": "REAR DELT FLY MACHINE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Machine",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "68511598fdd5ef741da936ae",
+    "title": "SEATED REAR LATERAL DUMBBELL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "6851159cfdd5ef741da936af",
+    "title": "HALF ARNOLD PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685115a0fdd5ef741da936b0",
+    "title": "ARNOLD PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685115a4fdd5ef741da936b1",
+    "title": "SEATED DUMBBELL LATERAL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685115c2fdd5ef741da936ca",
+    "title": "CABLE REAR DELT FLY",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength"
+      ]
+    }
+  },
+  {
+    "id": "685115c6fdd5ef741da936cb",
+    "title": "BENT OVER LATERAL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685115cbfdd5ef741da936cc",
+    "title": "BENT ARM LATERAL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Arms"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685115cefdd5ef741da936cd",
+    "title": "CABLE UPRIGHT ROW",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core",
+        "Upper Body"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength",
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685115d2fdd5ef741da936ce",
+    "title": "FACE PULL",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685115d6fdd5ef741da936cf",
+    "title": "HALF KNEELING HIGH CABLE ROW ROPE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core",
+        "Upper Body"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength",
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685115d9fdd5ef741da936d0",
+    "title": "LEANING CABLE LATERAL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core",
+        "Upper Body"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength",
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685115ddfdd5ef741da936d1",
+    "title": "DUMBBELL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Dumbbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685115e1fdd5ef741da936d3",
+    "title": "DUMBBELL UPRIGHT ROW",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685115e5fdd5ef741da936d4",
+    "title": "BODYWEIGHT MILITARY PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685115f7fdd5ef741da936d7",
+    "title": "PUSH PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685115fbfdd5ef741da936eb",
+    "title": "EZ BAR UPRIGHT ROW",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685115fffdd5ef741da936ee",
+    "title": "DUMBBELL LYING ONE-ARM REAR LATERAL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Arms"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68511603fdd5ef741da936f1",
+    "title": "LATERAL RAISE MACHINE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Machine",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68511607fdd5ef741da936f3",
+    "title": "SCOTT PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "6851160bfdd5ef741da936f4",
+    "title": "BAND PULL-APART",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Band",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "6851160ffdd5ef741da936f5",
+    "title": "BENT OVER REVERSE CABLE FLY",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength"
+      ]
+    }
+  },
+  {
+    "id": "68511615fdd5ef741da936f7",
+    "title": "WEIGHTED ROUND ARM",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Arms"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68511619fdd5ef741da936f9",
+    "title": "WEIGHT PLATE FRONT RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "6851164efdd5ef741da9370c",
+    "title": "BENT-OVER BARBELL REVERSE RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Barbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "68511681fdd5ef741da93740",
+    "title": "TWO ARM CABLE LATERAL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Arms",
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core",
+        "Upper Body"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength",
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "68511686fdd5ef741da93741",
+    "title": "LANDMINE SQUAT TO PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Bodyweight",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "6851168afdd5ef741da93742",
+    "title": "CABLE SHOULDER PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Shoulders",
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core",
+        "Upper Body"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength",
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "6851168efdd5ef741da93743",
+    "title": "BARBELL REAR DELT RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Barbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "68511692fdd5ef741da93744",
+    "title": "DOUBLE CABLE FRONT RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength"
+      ]
+    }
+  },
+  {
+    "id": "68511696fdd5ef741da93745",
+    "title": "STANDING SMITH MACHINE SHOULDER PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Shoulders"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Machine",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "6851169afdd5ef741da93746",
+    "title": "DUMBBELL W PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Dumbbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "6851169dfdd5ef741da93747",
+    "title": "DUMBBELL ONE ARM SHOULDER PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Shoulders",
+        "Arms"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685116a1fdd5ef741da93748",
+    "title": "DUMBBELL SCAPTION",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Dumbbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685116a6fdd5ef741da93749",
+    "title": "BARBELL CLEAN AND PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Barbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685116d7fdd5ef741da93762",
+    "title": "DUMBBELL CUBAN PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Dumbbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685116dcfdd5ef741da93763",
+    "title": "DUMBBELL CUBAN EXTERNAL ROTATION",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Dumbbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "685116e0fdd5ef741da93764",
+    "title": "STANDING ALTERNATING DUMBBELL SHOULDER PRESS",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Shoulders"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685116e4fdd5ef741da93765",
+    "title": "CABLE EXTERNAL SHOULDER ROTATION",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Shoulders",
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core",
+        "Upper Body"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength",
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685116e8fdd5ef741da9376c",
+    "title": "CABLE INTERNAL SHOULDER ROTATION",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Shoulders",
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core",
+        "Upper Body"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength",
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685116ecfdd5ef741da93779",
+    "title": "ACROSS CHEST SHOULDER STRETCH",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Chest",
+        "Shoulders"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility",
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "685116f0fdd5ef741da9377c",
+    "title": "STANDING REACH UP BACK ROTATION STRETCH",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility",
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "685116f3fdd5ef741da9377d",
+    "title": "SHOULDER STRETCH BEHIND THE BACK",
+    "type": "stretch",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Shoulders"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Mobility",
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Flexibility",
+        "Mobility"
+      ]
+    }
+  },
+  {
+    "id": "685116f7fdd5ef741da9377e",
+    "title": "INCLINE DUMBBELL SIDE LATERAL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "685116fbfdd5ef741da9377f",
+    "title": "DUMBBELL SIDE LYING REAR DELT RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [],
+      "type": "Dumbbell",
+      "recommendedFor": []
+    }
+  },
+  {
+    "id": "6851170efdd5ef741da93780",
+    "title": "LYING CABLE REVERSE FLY",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength"
+      ]
+    }
+  },
+  {
+    "id": "68511712fdd5ef741da93781",
+    "title": "SINGLE ARM CIRCLES",
+    "type": "warmup",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Arms"
+      ],
+      "difficulty": "Beginner",
+      "avoidFor": [],
+      "priorityTags": [
+        "Warm-up",
+        "Upper Body"
+      ],
+      "type": "Bodyweight",
+      "recommendedFor": [
+        "Preparation",
+        "Injury Prevention"
+      ]
+    }
+  },
+  {
+    "id": "68511717fdd5ef741da93783",
+    "title": "DUMBBELL LATERAL TO FRONT RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Upper Body"
+      ],
+      "type": "Dumbbell",
+      "recommendedFor": [
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  },
+  {
+    "id": "6851171bfdd5ef741da93784",
+    "title": "ONE-ARM BENT OVER CABLE LATERAL RAISE",
+    "type": "main",
+    "intensity": "medium",
+    "metadata": {
+      "muscleGroups": [
+        "Back",
+        "Arms",
+        "Core"
+      ],
+      "difficulty": "Intermediate",
+      "avoidFor": [],
+      "priorityTags": [
+        "Core",
+        "Upper Body"
+      ],
+      "type": "Cable",
+      "recommendedFor": [
+        "Core Strength",
+        "Muscle Gain",
+        "Strength"
+      ]
+    }
+  }
+]

@@ -21,7 +21,11 @@ const dashboardRoutes = require('./routes/dashboardRoutes');
 const userProgressRoutes = require('./routes/photosRouter'); // Updated photos router
 const workoutHistoryRoutes =  require("./routes/workoutHistoryRoutes");
 const bodyMeasurementRoutes = require('./routes/bodyMeasurementRoutes');
-const harshitPlanRoutes = require('./routes/HarshitPlanRoutes');const app = express();
+const harshitPlanRoutes = require('./routes/HarshitPlanRoutes');
+const planExerciseProgressRoutes = require('./routes/PlanExerciseProgressRoutes');
+const notificationRoutes = require('./routes/NotificationRoutes');
+
+const app = express();
 const PORT = process.env.PORT || 8000;
 
 app.use(cors());
@@ -47,14 +51,17 @@ app.use('/api/userprogress', userProgressRoutes);
 app.use("/api/workout-history",workoutHistoryRoutes ); // User progress routes
 app.use("/api/body-measurements", bodyMeasurementRoutes); // Body measurement routes
 app.use('/api/harshit', harshitPlanRoutes);
+app.use('/api/plan-progress', planExerciseProgressRoutes); // Plan exercise progress routes
+// app.use('/api/notifications', notificationRoutes); // Notification routes
+
 // Fallback to index.html for SPA routes
 app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname, "dist", "index.html"));
 });
 
 const server = app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-  console.log(`User progress photos serving from: ${path.join(__dirname, 'public/usersprogress')}`);
+  console.log(`🚀 Server is running on port ${PORT}`);
+  
 });
 
 // Graceful Shutdown

@@ -59,7 +59,7 @@ router.post("/upload", protect, upload.single("photo"), async (req, res) => {
         console.log("File received:", req.file.filename);
 
         // User-specific file URL
-        const fileUrl = `${process.env.SERVER_URL || 'http://localhost:8000'}/usersprogress/${userId}/${req.file.filename}`;
+        const fileUrl = `/usersprogress/${userId}/${req.file.filename}`;
 
         // Upsert - update if exists, create if not
         const updatedPhoto = await Photo.findOneAndUpdate(

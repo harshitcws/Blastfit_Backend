@@ -116,71 +116,343 @@ exports.send_otp = async (req, res) => {
       res.status(500).json({ message: 'Server Error', error: err.message });
     }
   };
-  //   exports.appleLogin = async (req, res) => {
-//   const { identityToken, appleUserId, email, fullName } = req.body;
+// ============================================
+// UPDATED APPLE LOGIN FUNCTION - COMPLETE FIX
+// ============================================
+
+// exports.appleLogin = async (req, res) => {
+//   const { identityToken, appleUserId, email, fullName, givenName, familyName } = req.body;
 
 //   if (!identityToken || !appleUserId) {
 //     return res.status(400).json({ message: 'Invalid Apple login data.' });
 //   }
 
 //   try {
-//     // 1️⃣ Find or create AppleUser
-//     let appleUser = await AppleUser.findOne({ appleUserId });
+//     console.log('🍎 Apple Login Request:', { appleUserId, email, givenName, familyName });
 
-//     if (!appleUser) {
-//       appleUser = new AppleUser({
-//         appleUserId,
-//         identityToken,
-//         email,
-//         fullName,
-//       });
-//       await appleUser.save();
-//     } else {
-//       // update latest identityToken
-//       appleUser.identityToken = identityToken;
-//       await appleUser.save();
-//     }
-
-//     // 2️⃣ Verify identityToken with Apple
+//     // ========================
+//     // STEP 1: Verify Token
+//     // ========================
 //     const verifiedPayload = await verifyAppleIdentityToken(identityToken);
 //     if (!verifiedPayload) {
 //       return res.status(401).json({ message: 'Apple identity verification failed.' });
 //     }
-//     appleUser.isVerified = true;
-//     await appleUser.save();
 
-//     // 3️⃣ Check email match in User collection
-//     if (!appleUser.email) {
-//       return res.status(400).json({ message: 'Email not available from Apple. Cannot login.' });
+//     // ========================
+//     // STEP 2: Find or Create AppleUser
+//     // ========================
+//     let appleUser = await AppleUser.findOne({ appleUserId });
+
+//     if (!appleUser) {
+//       // ✅ First time login - Save all data from Apple
+//       console.log('🆕 Creating new AppleUser');
+      
+//       appleUser = new AppleUser({
+//         appleUserId,
+//         identityToken,
+//         email: email || "", // Apple provides email only first time
+//         fullName: {
+//           givenName: givenName || "",
+//           familyName: familyName || ""
+//         },
+//         isVerified: true
+//       });
+//       await appleUser.save();
+//       console.log('✅ AppleUser saved:', appleUser);
+//     } else {
+//       // ✅ Subsequent login - Update token only
+//       console.log('📝 Updating existing AppleUser');
+      
+//       appleUser.identityToken = identityToken;
+//       appleUser.isVerified = true;
+      
+//       // ⚠️ IMPORTANT: Only update email/name if they were empty before
+//       // This preserves the original data from first login
+//       if (email && !appleUser.email) {
+//         appleUser.email = email;
+//       }
+//       if (givenName && !appleUser.fullName.givenName) {
+//         appleUser.fullName.givenName = givenName;
+//       }
+//       if (familyName && !appleUser.fullName.familyName) {
+//         appleUser.fullName.familyName = familyName;
+//       }
+      
+//       await appleUser.save();
+//       console.log('✅ AppleUser updated:', appleUser);
 //     }
 
-//     let user = await User.findOne({ email: appleUser.email });
+//     // ========================
+//     // STEP 3: Get Email (Current or Saved)
+//     // ========================
+//     let userEmail = email || appleUser.email;
+
+//     if (!userEmail) {
+//       console.log('❌ No email available from Apple');
+//       return res.status(400).json({ 
+//         noUser: true, 
+//         message: 'Email not available from Apple. Cannot proceed.',
+//         appleUserId: appleUserId
+//       });
+//     }
+
+//     console.log('📧 Using email:', userEmail);
+
+//     // ========================
+//     // STEP 4: Check User Collection
+//     // ========================
+//     let user = await User.findOne({ email: userEmail });
 
 //     if (!user) {
-//       // redirect to signup if user not exist
-//       return res.status(200).json({ noUser: true, email: appleUser.email , fullName: appleUser.fullName });
+//       // ✅ User doesn't exist - Return data for signup
+//       console.log('🆕 User not found, returning data for signup');
+      
+//       const fullNameString = `${appleUser.fullName?.givenName || ""} ${appleUser.fullName?.familyName || ""}`.trim();
+      
+//       return res.status(200).json({ 
+//         noUser: true, 
+//         email: userEmail, 
+//         fullName: {
+//           givenName: appleUser.fullName?.givenName || "",
+//           familyName: appleUser.fullName?.familyName || ""
+//         },
+//         name: fullNameString || "Apple User",
+//         appleUserId: appleUserId
+//       });
 //     }
 
-//     // ✅ Make sure main User is verified too
+//     // ========================
+//     // STEP 5: User Exists - Update Name if Needed
+//     // ========================
+//     console.log('✅ User found:', user.email);
+    
+//     const appleGivenName = appleUser.fullName?.givenName || "";
+//     const appleFamilyName = appleUser.fullName?.familyName || "";
+//     const fullNameFromApple = `${appleGivenName} ${appleFamilyName}`.trim();
+    
+//     // Update name only if it's empty or "new user"
+//     if (fullNameFromApple && (!user.name || user.name.trim() === "" || user.name.toLowerCase() === "new user")) {
+//       user.name = fullNameFromApple;
+//       console.log('📝 Updated user name to:', fullNameFromApple);
+//     }
+
+//     // ========================
+//     // STEP 6: Mark User as Verified
+//     // ========================
 //     if (!user.isVerified) {
 //       user.isVerified = true;
-//       await user.save();
+//       console.log('✅ User marked as verified');
 //     }
 
-//     // 4️⃣ Login success → generate app token
+//     await user.save();
+
+//     // ========================
+//     // STEP 7: Generate Token & Send Response
+//     // ========================
 //     const token = generateToken(user._id, req.headers['x-device'] || 'web');
-//     res.json({
+    
+//     console.log('🎉 Login successful for:', user.email);
+    
+//     return res.json({
 //       _id: user._id,
 //       name: user.name,
 //       email: user.email,
 //       isVerified: user.isVerified,
 //       token,
+//       message: 'Login successful'
 //     });
+
 //   } catch (err) {
 //     console.error('❌ Apple login error:', err);
-//     res.status(500).json({ message: 'Server Error', error: err.message });
+//     return res.status(500).json({ 
+//       message: 'Server Error', 
+//       error: err.message 
+//     });
 //   }
 // };
+
+// ============================================
+// UPDATED APPLE LOGIN FUNCTION - COMPLETE FIX
+// ============================================
+
+// exports.appleLogin = async (req, res) => {
+//   const { identityToken, appleUserId, email, fullName, givenName, familyName } = req.body;
+
+//   if (!identityToken || !appleUserId) {
+//     return res.status(400).json({ message: 'Invalid Apple login data.' });
+//   }
+
+//   try {
+//     console.log('🍎 Apple Login Request:', { appleUserId, email, givenName, familyName });
+
+//     // ========================
+//     // STEP 1: Verify Token
+//     // ========================
+//     const verifiedPayload = await verifyAppleIdentityToken(identityToken);
+//     if (!verifiedPayload) {
+//       return res.status(401).json({ message: 'Apple identity verification failed.' });
+//     }
+
+//     // ========================
+//     // STEP 2: Find or Create AppleUser
+//     // ========================
+//     let appleUser = await AppleUser.findOne({ appleUserId });
+
+//     if (!appleUser) {
+//       // ✅ First time login - Save all data from Apple
+//       console.log('🆕 Creating new AppleUser');
+      
+//       appleUser = new AppleUser({
+//         appleUserId,
+//         identityToken,
+//         email: email || "", // Apple provides email only first time
+//         fullName: {
+//           givenName: givenName || "",
+//           familyName: familyName || ""
+//         },
+//         isVerified: true
+//       });
+//       await appleUser.save();
+//       console.log('✅ AppleUser saved:', appleUser);
+//     } else {
+//       // ✅ Subsequent login - Update token only
+//       console.log('📝 Updating existing AppleUser');
+      
+//       appleUser.identityToken = identityToken;
+//       appleUser.isVerified = true;
+      
+//       // ⚠️ IMPORTANT: Only update email/name if they were empty before
+//       // This preserves the original data from first login
+//       if (email && !appleUser.email) {
+//         appleUser.email = email;
+//       }
+//       if (givenName && !appleUser.fullName.givenName) {
+//         appleUser.fullName.givenName = givenName;
+//       }
+//       if (familyName && !appleUser.fullName.familyName) {
+//         appleUser.fullName.familyName = familyName;
+//       }
+      
+//       await appleUser.save();
+//       console.log('✅ AppleUser updated:', appleUser);
+//     }
+
+//     // ========================
+//     // STEP 3: Get Email (Current or Saved)
+//     // ========================
+//     let userEmail = email || appleUser.email;
+
+//     // ✅ CRITICAL FIX: Check if email exists in identityToken
+//     if (!userEmail) {
+//       console.log('⚠️ No email from Apple request, checking token...');
+      
+//       // Decode token to extract email (Apple puts it in JWT)
+//       try {
+//         const tokenParts = identityToken.split('.');
+//         if (tokenParts.length === 3) {
+//           const payload = JSON.parse(Buffer.from(tokenParts[1], 'base64').toString());
+//           if (payload.email) {
+//             userEmail = payload.email;
+            
+//             // ✅ Update AppleUser with recovered email
+//             appleUser.email = userEmail;
+//             await appleUser.save();
+            
+//             console.log('✅ Email recovered from token:', userEmail);
+//           }
+//         }
+//       } catch (decodeError) {
+//         console.error('❌ Token decode failed:', decodeError);
+//       }
+//     }
+
+//     if (!userEmail) {
+//       console.log('❌ No email available from Apple');
+//       return res.status(400).json({ 
+//         noUser: true, 
+//         message: 'Email not available from Apple. Cannot proceed.',
+//         appleUserId: appleUserId
+//       });
+//     }
+
+//     console.log('📧 Using email:', userEmail);
+
+//     // ========================
+//     // STEP 4: Check User Collection
+//     // ========================
+//     let user = await User.findOne({ email: userEmail });
+
+//     if (!user) {
+//       // ✅ User doesn't exist - Return data for signup
+//       console.log('🆕 User not found, returning data for signup');
+      
+//       const fullNameString = `${appleUser.fullName?.givenName || ""} ${appleUser.fullName?.familyName || ""}`.trim();
+      
+//       return res.status(200).json({ 
+//         noUser: true, 
+//         email: userEmail, 
+//         fullName: {
+//           givenName: appleUser.fullName?.givenName || "",
+//           familyName: appleUser.fullName?.familyName || ""
+//         },
+//         name: fullNameString || "Apple User",
+//         appleUserId: appleUserId
+//       });
+//     }
+
+//     // ========================
+//     // STEP 5: User Exists - Update Name if Needed
+//     // ========================
+//     console.log('✅ User found:', user.email);
+    
+//     const appleGivenName = appleUser.fullName?.givenName || "";
+//     const appleFamilyName = appleUser.fullName?.familyName || "";
+//     const fullNameFromApple = `${appleGivenName} ${appleFamilyName}`.trim();
+    
+//     // Update name only if it's empty or "new user"
+//     if (fullNameFromApple && (!user.name || user.name.trim() === "" || user.name.toLowerCase() === "new user")) {
+//       user.name = fullNameFromApple;
+//       console.log('📝 Updated user name to:', fullNameFromApple);
+//     }
+
+//     // ========================
+//     // STEP 6: Mark User as Verified
+//     // ========================
+//     if (!user.isVerified) {
+//       user.isVerified = true;
+//       console.log('✅ User marked as verified');
+//     }
+
+//     await user.save();
+
+//     // ========================
+//     // STEP 7: Generate Token & Send Response
+//     // ========================
+//     const token = generateToken(user._id, req.headers['x-device'] || 'web');
+    
+//     console.log('🎉 Login successful for:', user.email);
+    
+//     return res.json({
+//       _id: user._id,
+//       name: user.name,
+//       email: user.email,
+//       isVerified: user.isVerified,
+//       token,
+//       message: 'Login successful'
+//     });
+
+//   } catch (err) {
+//     console.error('❌ Apple login error:', err);
+//     return res.status(500).json({ 
+//       message: 'Server Error', 
+//       error: err.message 
+//     });
+//   }
+// };
+// ============================================
+// COMPLETE APPLE LOGIN - ALL CASES COVERED
+// ============================================
+
 exports.appleLogin = async (req, res) => {
   const { identityToken, appleUserId, email, fullName, givenName, familyName } = req.body;
 
@@ -189,75 +461,188 @@ exports.appleLogin = async (req, res) => {
   }
 
   try {
-    // 1️⃣ Find or create AppleUser
-    let appleUser = await AppleUser.findOne({ appleUserId });
+    console.log('🍎 Apple Login Request:', { appleUserId, email, givenName, familyName });
 
-    if (!appleUser) {
-      appleUser = new AppleUser({
-        appleUserId,
-        identityToken,
-        email,
-        fullName,
-        givenName,
-        familyName,
-      });
-      await appleUser.save();
-    } else {
-      appleUser.identityToken = identityToken;
-      await appleUser.save();
+    // ========================
+    // STEP 0: Extract Email from Token ALWAYS
+    // ========================
+    let extractedEmail = email;
+    let extractedGivenName = givenName;
+    let extractedFamilyName = familyName;
+
+    try {
+      const tokenParts = identityToken.split('.');
+      if (tokenParts.length === 3) {
+        const payload = JSON.parse(Buffer.from(tokenParts[1], 'base64').toString());
+        console.log('🔍 Token payload:', payload);
+        
+        // ✅ Email always extract from token (highest priority)
+        if (payload.email && !extractedEmail) {
+          extractedEmail = payload.email;
+          console.log('✅ Email extracted from token:', extractedEmail);
+        }
+      }
+    } catch (decodeError) {
+      console.error('❌ Token decode failed:', decodeError.message);
     }
 
-    // 2️⃣ Verify identityToken with Apple
+    // ========================
+    // STEP 1: Verify Token
+    // ========================
     const verifiedPayload = await verifyAppleIdentityToken(identityToken);
     if (!verifiedPayload) {
       return res.status(401).json({ message: 'Apple identity verification failed.' });
     }
-    appleUser.isVerified = true;
-    await appleUser.save();
 
-    // 3️⃣ Check email match in User collection
-    if (!appleUser.email) {
-      return res.status(400).json({ message: 'Email not available from Apple. Cannot login.' });
+    // ========================
+    // STEP 2: Find or Create AppleUser
+    // ========================
+    let appleUser = await AppleUser.findOne({ appleUserId });
+
+    if (!appleUser) {
+      // ✅ First time - Save all available data
+      console.log('🆕 Creating new AppleUser');
+      
+      appleUser = new AppleUser({
+        appleUserId,
+        identityToken,
+        email: extractedEmail || "",
+        fullName: {
+          givenName: extractedGivenName || "",
+          familyName: extractedFamilyName || ""
+        },
+        isVerified: true
+      });
+      await appleUser.save();
+      console.log('✅ AppleUser saved:', appleUser);
+    } else {
+      // ✅ Subsequent login - Update missing data only
+      console.log('📝 Updating existing AppleUser');
+      
+      appleUser.identityToken = identityToken;
+      appleUser.isVerified = true;
+      
+      // Update email if missing
+      if (extractedEmail && (!appleUser.email || appleUser.email === "")) {
+        appleUser.email = extractedEmail;
+        console.log('✅ Updated AppleUser email:', extractedEmail);
+      }
+      
+      // Update name if missing
+      if (extractedGivenName && (!appleUser.fullName?.givenName || appleUser.fullName.givenName === "")) {
+        appleUser.fullName = appleUser.fullName || {};
+        appleUser.fullName.givenName = extractedGivenName;
+      }
+      if (extractedFamilyName && (!appleUser.fullName?.familyName || appleUser.fullName.familyName === "")) {
+        appleUser.fullName = appleUser.fullName || {};
+        appleUser.fullName.familyName = extractedFamilyName;
+      }
+      
+      await appleUser.save();
+      console.log('✅ AppleUser updated:', appleUser);
     }
 
-    let user = await User.findOne({ email: appleUser.email });
+    // ========================
+    // STEP 3: Get Final Email
+    // ========================
+    const finalEmail = extractedEmail || appleUser.email;
 
+    if (!finalEmail) {
+      console.log('❌ No email available from anywhere');
+      return res.status(400).json({ 
+        noUser: true, 
+        message: 'Email not available. Please contact support.',
+        appleUserId: appleUserId
+      });
+    }
+
+    console.log('📧 Final email:', finalEmail);
+
+    // ========================
+    // STEP 4: Check User Collection
+    // ========================
+    let user = await User.findOne({ email: finalEmail });
+
+    // ========================
+    // CASE 1: User doesn't exist → Signup flow
+    // ========================
     if (!user) {
-      return res.status(200).json({ noUser: true, email: appleUser.email , fullName: appleUser.fullName });
+      console.log('🆕 User not found, returning data for signup');
+      
+      const fullNameString = `${appleUser.fullName?.givenName || ""} ${appleUser.fullName?.familyName || ""}`.trim();
+      
+      return res.status(200).json({ 
+        noUser: true, 
+        email: finalEmail, 
+        fullName: {
+          givenName: appleUser.fullName?.givenName || "",
+          familyName: appleUser.fullName?.familyName || ""
+        },
+        name: fullNameString || "Apple User",
+        appleUserId: appleUserId
+      });
     }
 
-    // ✅ Make sure main User is verified too
+    // ========================
+    // CASE 2: User exists but not verified → Continue onboarding
+    // ========================
+    console.log('✅ User found:', user.email, '| Verified:', user.isVerified);
+    
     if (!user.isVerified) {
-      user.isVerified = true;
+      console.log('⚠️ User not verified, returning partial login');
+      
+      // Update name if needed
+      const appleFullName = `${appleUser.fullName?.givenName || ""} ${appleUser.fullName?.familyName || ""}`.trim();
+      if (appleFullName && (!user.name || user.name.trim() === "" || user.name.toLowerCase() === "new user")) {
+        user.name = appleFullName;
+      }
+      
+      user.isVerified = true; // ✅ Mark as verified since Apple verified
+      await user.save();
+      
+      const token = generateToken(user._id, req.headers['x-device'] || 'web');
+      
+      return res.json({
+        _id: user._id,
+        name: user.name,
+        email: user.email,
+        isVerified: false, // ⚠️ Send false so frontend knows to complete profile
+        token,
+        message: 'Complete your profile'
+      });
     }
 
-    // ✨ Update name if missing, blank, or "new user"
-    const givenName = appleUser.fullName?.givenName || "";
-const familyName = appleUser.fullName?.familyName || "";
+    // ========================
+    // CASE 3: User exists and verified → Full login
+    // ========================
+    // Update name if it's still "new user"
+    const appleFullName = `${appleUser.fullName?.givenName || ""} ${appleUser.fullName?.familyName || ""}`.trim();
+    if (appleFullName && (!user.name || user.name.trim() === "" || user.name.toLowerCase() === "new user")) {
+      user.name = appleFullName;
+      console.log('📝 Updated user name to:', appleFullName);
+    }
 
-// Update name if missing/blank/"new user"
-if (!user.name || user.name.trim() === "" || user.name.toLowerCase() === "new user") {
-  const full = `${givenName} ${familyName}`.trim();
-  if (full) {
-    user.name = full;
-  }
-}
+    await user.save();
 
-await user.save();
-
-
-    // 4️⃣ Login success → generate app token
     const token = generateToken(user._id, req.headers['x-device'] || 'web');
-    res.json({
+    
+    console.log('🎉 Login successful for:', user.email);
+    
+    return res.json({
       _id: user._id,
       name: user.name,
       email: user.email,
-      isVerified: user.isVerified,
+      isVerified: true,
       token,
+      message: 'Login successful'
     });
+
   } catch (err) {
     console.error('❌ Apple login error:', err);
-    res.status(500).json({ message: 'Server Error', error: err.message });
+    return res.status(500).json({ 
+      message: 'Server Error', 
+      error: err.message 
+    });
   }
 };
 exports.adminlogin = async (req, res) => {
